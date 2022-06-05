@@ -1,4 +1,3 @@
-# xssh
+# xvnc
 
-
-edit config.sh file, set value of NGROK_TOKEN with your ngrok token
+vnc browser based
