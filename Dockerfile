@@ -1,4 +1,4 @@
-FROM devisty/xssh:v2
+FROM dorowu/ubuntu-desktop-lxde-vnc:latest
 
 RUN apt-get update && \
   apt-get upgrade -y && \
