@@ -4,12 +4,3 @@ services:
     build: .
     ports:
       - "80:80"
-    volumes:
-      - .:/code
-      - logvolume01:/var/log
-    links:
-      - redis
-  redis:
-    image: redis
-volumes:
-  logvolume01: {}
